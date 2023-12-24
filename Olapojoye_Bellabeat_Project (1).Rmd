@@ -233,7 +233,7 @@ daily_data_final$NewActivityDate <- format(daily_data_final_v2$ActDate, "%Y-%m-%
 daily_data_final$Week_day <- wday(daily_data_final$NewActivityDate, label=TRUE, abbr = FALSE)
 ```
 
-**Result of cleaning** : 
+**Results of cleaning** : 
 
 1. No null or missing values was found in the data
 
